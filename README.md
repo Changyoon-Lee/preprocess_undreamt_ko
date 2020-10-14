@@ -16,6 +16,8 @@ undreamt github를 참고하여 한국어-영어 간의 비지도 번역을 실�
 
 ### requirement
 
+- python 3
+
 - konlpy
 - gensim
 - pandas
@@ -25,7 +27,7 @@ undreamt github를 참고하여 한국어-영어 간의 비지도 번역을 실�
 - clone vecmap
 
 - 한글-영어 단어 set
-- vecmap에필요한 기본 자료들
+- vecmap에필요한 기본 자료들(numpy, scipy, cupy)
 
 ### usage
 
