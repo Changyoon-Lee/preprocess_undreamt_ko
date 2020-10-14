@@ -8,9 +8,7 @@ undreamt github를 참고하여 한국어-영어 간의 비지도 번역을 실�
 
 그후, 언어간 비슷한 의미를 가진 단어들을 mapping 시켜주는 과정이 필요하다. 이 과정에는 [vecmap](https://github.com/artetxem/vecmap)을 clone하여 이용하였다.
 
-즉 preprocessing.py 의 기능은 원본 문서로 부터 [vecmap](https://github.com/artetxem/vecmap)
-
-을 진행하기 위한 자료들을 생성해주는 역할이 있다.
+즉 preprocessing.py 의 기능은 원본 문서로 부터 [vecmap](https://github.com/artetxem/vecmap)을 진행하기 위한 자료들을 생성해주고, vecmap까지 진행하여 결과값을 생성한다.
 
 이후 비지도학습을 이용한 번역은 [undreamt](https://github.com/Changyoon-Lee/unsupervised_nmt)을 참고하길 바란다.
 
