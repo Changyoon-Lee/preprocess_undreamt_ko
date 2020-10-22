@@ -1,6 +1,6 @@
 # preprocess_undreamt_ko
 
-undreamt github를 참고하여 한국어-영어 간의 비지도 번역을 실습하여 보았다.
+undreamt github를 참고하여 한국어-영어 간의 비지도 번역을 실습하여 보았다. 이 repository는 그 번역을 진행하기전 전처리 부터 vecmap embedding까지 기본적이고 간단한 전처리를 통해 vecmap까지 진행 해본 flow를 정리했다. 실습내용의 간단진행버전이라고 볼 수 있다.
 
 사용된 데이터셋은 각기다른 corpus로 한국어는 AI hub의 자료, 영어는 WMT14의 new데이터를 이용하였다.
 
